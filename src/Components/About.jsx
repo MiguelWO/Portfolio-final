@@ -10,13 +10,13 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/mosaic.svg";
+import image from "../images/galaxy-3608029_1920.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,26 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hi, I'm Miguel Wagner, a system and computer engineer with training and a focus on data and artificial intelligence. I'm constantly searching for fresh chances to put my knowledge and talents to use and support businesses in their endeavors.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "Python",
+  "JavaScript",
+  "React",
+  "Express",
+  "Data Science",
+  "Machine Learning",
+  "Artificial Intelligence",
+  "Data Visualization",
+  "MongoDB",
+  "SQL",
+  "AWS",
+  "Game Development",
 ];
 
 /**
@@ -45,7 +52,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a responsible individual who enjoys learning new things. I also constantly seek for new and better ways to learn new things while keeping up with the most recent advancements and trends in AI. I always strive to realize my long-term career goal of using my expertise to benefit a large organization. I am eager to collaborate with like-minded people that are passionate about the same things I am and am excited about the chances that lay ahead. Please don't hesitate to get in touch with me if you're curious to learn more about my background, abilities, or professional aspirations. I welcome new chances and would be delighted to network with other professionals in my sector.";
 
 const About = () => {
   return (

@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Image recognition using YOLO ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Implementing the YOLO (You Only Look Once) algorithm to perform real-time object detection in images or videos. This project was implemented using different coins for its identification and was deployed on mobile devices.",
+    url: "https://colab.research.google.com/drive/1jrI6scYzeTOOfbPLm2lec8Wn_Zl4dUik?usp=sharing",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Data Visualization Portfolio",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed and showcased a collection of visually compelling and informative data visualizations. Utilized various tools and techniques to transform complex data sets into easy-to-understand visuals, facilitating data-driven decision-making",
+    url: "https://github.com/MiguelWO/data-visualization-portfolio",
   },
   {
-    title: "My Resume Site",
+    title: "Fullstack Social Media Web-App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Designed and built a dynamic social media web application using Express and React. Developed both the frontend and backend components to create a seamless user experience. Implemented features such as user authentication, real-time updates, and interactive user interfaces.",
+    url: "https://github.com/MiguelWO/social-media",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Pokedex",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a Pokedex application using React and TypeScript. Designed and implemented a user-friendly interface to display detailed information about various Pokemon species. Integrated external APIs to fetch and update Pokemon data in real-time. Demonstrated proficiency in React components, state management, and responsive design to create a smooth and interactive user experience.",
+    url: "https://github.com/MiguelWO/pokemon-ts",
   },
 ];
 
