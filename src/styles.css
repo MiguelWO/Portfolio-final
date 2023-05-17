@@ -13,6 +13,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -122,4 +128,31 @@ a:hover {
 img.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+/* add a slide in animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* animate the scroll down arrow in your Home */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
